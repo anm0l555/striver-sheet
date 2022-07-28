@@ -34,5 +34,6 @@ bool hasCycle(ListNode *head){
         hash.insert(t);
         t=t->next;
     }
+    return false;
 
 }

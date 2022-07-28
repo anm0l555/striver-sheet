@@ -33,7 +33,7 @@ public:
                 ans->next=temp1;
                 temp1=temp1->next;
             }else{
-                ans->next=temp2;
+                ans->next=temp2;-
                 temp2=temp2->next;
             }
             ans=ans->next;
